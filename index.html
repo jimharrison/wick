@@ -12,7 +12,12 @@
 
   <body>
     <div class="header">
-      <p>lorem</p>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Talk</a></li>
+            <li><a href="#">Contributions</a></li>
+            <li><a href="#">Create Account</a></li>
+            <li><a href="#">Log in</a></li>
+          </ul>
     </div>
     <div class="col-md-2">
       <img src="img/enwiki.png" alt="Jon Wicki Logo">
@@ -62,9 +67,55 @@
       </ul>
     </div>
     <div class="col-md-10 main-content">
-      <div class="jumbotron">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam esse qui velit nulla ab, iure, corporis nesciunt dolores
-          numquam quod eaque quibusdam obcaecati quo placeat modi, quisquam in beatae sunt?</p>
+      <div class="row">
+         <ul class="nav nav-tabs">
+            <li role="presentation"><a href="#">Main Page</a></li>
+            <li role="presentation"><a href="#">Talk</a></li>
+            <li role="presentation" class="pull-right">
+              <form class="navbar-form">
+                <div class="form-group">
+                  <input type="text" placeholder="Search Wikipedia" class="form-control">
+                </div>
+              </form>
+            </li>
+            <li role="presentation" class="pull-right"><a href="#">View history</a></li>
+            <li role="presentation" class="pull-right"><a href="#">View source</a></li>
+            <li role="presentation" class="pull-right"><a href="#">Read</a></li>
+          </ul>
+          <div class="well" id="topWell">
+            <div class="row">
+              <div class="col-md-7">
+                <div class="pull-left text-center">
+                  <h3>Welcome to <a href="#">John Wikipedia</a></h3>
+                </div>
+              </div>
+              <div class="col-md-5 well-nav-list">
+                <div class="row">
+                  <div class="col-md-4">
+                    <ul>
+                      <li><a href="#">Arts</a></li>
+                      <li><a href="#">Biography</a></li>
+                      <li><a href="#">Geography</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li><a href="#">History</a></li>
+                      <li><a href="#">Mathematics</a></li>
+                      <li><a href="#">Science</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li><a href="#">Society</a></li>
+                      <li><a href="#">Technology</a></li>
+                      <li><a href="#"><strong>All portals</strong></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
       <div class="row">
         <div class="col-md-6">
