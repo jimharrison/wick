@@ -38,3 +38,11 @@ ul.sidebar-nav {
 .panel-body{
   padding: 15px 0;
 }
+
+.left-well {
+  background-color: #f5fffa;
+}
+
+.right-well {
+  background-color: #f5faff;
+}
