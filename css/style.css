@@ -8,11 +8,17 @@ ul.sidebar-nav {
 }
 
 #thumb1 {
-  height:100px;
-  width: 100px;
-  float: left;
-  margin: 0 8px 0 0;;
-  /* padding: 5px; */
+  height:120px;
+  /* width: 200px; */
+  /* margin: 0 8px 0 0;; */
+  padding: 5px;
+}
+#thumb2 {
+  height:150px;
+
+  /* width: 200px; */
+  /* margin: 0 8px 0 0;; */
+  padding: 5px;
 }
 
 .panel-body{
